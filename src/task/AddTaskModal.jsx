@@ -2,6 +2,7 @@ import { useState } from "react";
 
 export default function AddTaskModal({ onSave }) {
   const [task, setTask] = useState({
+    id: crypto.randomUUID(),
     title: "",
     description: "",
     tags: [],
@@ -77,9 +78,9 @@ export default function AddTaskModal({ onSave }) {
                 required
               >
                 <option value="">Select Priority</option>
-                <option value="low">Low</option>
-                <option value="medium">Medium</option>
-                <option value="high">High</option>
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
               </select>
             </div>
           </div>
@@ -91,7 +92,7 @@ export default function AddTaskModal({ onSave }) {
             onClick={() => onSave(task)}
             className="rounded bg-blue-600 px-4 py-2 text-white transition-all hover:opacity-80"
           >
-            Create new Task
+            Save
           </button>
         </div>
       </htmlForm>

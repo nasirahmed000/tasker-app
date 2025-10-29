@@ -18,9 +18,12 @@ export default function TaskBoard() {
   const [tasks, setTasks] = useState([defaultTasks]);
   const [showAddModal, setShowAddModal] = useState(false);
 
-  function handleAddTask(tasks) {
-    console.log("Add Task Clicked", tasks);
+  function handleAddTask(newTask) {
+    console.log("Add Task Clicked", newTask);
+    setTasks([...tasks, newTask]);
+    setShowAddModal(false);
   }
+
   return (
     <section className="mb-20" id="tasks">
       {showAddModal && <AddTaskModal onSave={handleAddTask} />}
