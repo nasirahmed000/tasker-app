@@ -1,6 +1,6 @@
 import { FaStar } from "react-icons/fa";
 
-export default function Tasklist({ tasks }) {
+export default function Tasklist({ tasks, onEdit }) {
   return (
     <div className="overflow-auto">
       <table className="table-fixed overflow-auto xl:w-full">
