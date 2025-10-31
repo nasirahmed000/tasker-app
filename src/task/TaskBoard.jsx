@@ -9,7 +9,7 @@ export default function TaskBoard() {
   const defaultTasks = {
     id: crypto.randomUUID(),
     title: "Learn React Native ",
-    "description ":
+    description:
       "I want to learn react such than I can treat it like my slave and make it d whatever I want to do",
     tags: ["web", " react", "js"],
     priority: "high",
