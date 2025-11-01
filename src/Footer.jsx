@@ -10,3 +10,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+// md nasir Ahmed , Software Engineer
+// supremo Media , Uk, <London></London>
