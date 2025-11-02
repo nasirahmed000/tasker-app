@@ -11,5 +11,6 @@ export default function Footer() {
   );
 }
 
-// md nasir Ahmed , Software Engineer
-// supremo Media , Uk, <London></London>
+// Md Nasir Ahmed , Software Engineer
+// Supremo Media , Uk, <London></London>
+// Digital marketing and SEO Services
