@@ -29,3 +29,4 @@ export default function HeroSection() {
     </section>
   );
 }
+// module 2
