@@ -14,11 +14,10 @@ Delete one or more tasks
 rocketIcon How to run
 Please follow the below instructions to run this branch in your machine:
 
-Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
 Clone this repository -
 
-git clone https://github.com/Learn-with-Sumit/rnext.git
+git clone https://github.com/nasirahmed000/tasker-app
 Go to the cloned project directory
 
 cd rnext
